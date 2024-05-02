@@ -10,7 +10,7 @@ __global__ void helloFromGPU(void) {
 }
 
 
-int hello() {
+int main() {
     // Launch the kernel
     dim3 block(2, 2);
     dim3 grid(2, 2);

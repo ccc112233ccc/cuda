@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"../common.cuh"
+#include"common.cuh"
 
 
 __global__ void vecAdd(float *a, float *b, float *c, int n) {

@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"../common.cuh"
+#include"common.cuh"
 
 
 int main() {

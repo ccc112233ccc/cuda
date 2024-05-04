@@ -6,9 +6,10 @@ find_package(CUDA REQUIRED)
 
 set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} -std=c++11)
 
-cuda_add_executable(hello hello/hello.cu)
-cuda_add_executable(vecAdd vecAdd/vecAdd.cu)
-cuda_add_executable(query query/query.cu)
+cuda_add_executable(hello src/hello.cu)
+cuda_add_executable(vecAdd src/vecAdd.cu)
+cuda_add_executable(query src/query.cu)
+cuda_add_executable(vecProduct src/vecProduct.cu)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 

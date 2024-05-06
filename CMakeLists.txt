@@ -10,6 +10,7 @@ cuda_add_executable(hello src/hello.cu)
 cuda_add_executable(vecAdd src/vecAdd.cu)
 cuda_add_executable(query src/query.cu)
 cuda_add_executable(vecProduct src/vecProduct.cu)
+cuda_add_executable(rayTrace src/rayTrace.cu)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
